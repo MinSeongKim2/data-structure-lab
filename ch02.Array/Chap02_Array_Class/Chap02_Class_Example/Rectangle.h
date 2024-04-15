@@ -15,7 +15,7 @@ private:
 			return width * height;
 	    }
 		double getPerimeter() {
-			return 2 * (width * height);
+			return 2 * (width + height);
 		}
 		bool isSquare() {
 			return (width == height);
